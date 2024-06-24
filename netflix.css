@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.mainbox {
+    background-image: url("loginpagebg.jpg");
+    background-size: cover;
+    height: 1200px;
+}
+
+.main-logo img {
+    width: 250px;
+   height: 100px;
+
+}
+
+.loginPage {
+    background-color: rgba(0, 0, 1, 0.80);
+    /* position: relative;
+    border-radius: 10px;
+    left: 400px;
+    top: 40px; */
+    margin: auto;
+    height: 600px;
+    width: 500px;
+    opacity: 1;
+   
+}
+
+
+.signinPage h1 {
+    color: white;
+    padding-top: 60px;
+    padding-left: 60px; 
+} 
+
+.form {
+    margin-left: 65px;
+}
+.login-input {
+   margin-top: 30px;
+}
+
+.login-input input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #333333;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 20px 0;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.login-btn {
+    background-color: #E50914;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 60px;
+    margin: 25px 0 10px;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.login-info {
+    margin-top: 10px;
+    width: 350px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    color: #B3B3B3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    margin-bottom: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.checkbox p {
+    margin-left: 8px;
+}
+
+.more-login {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 60px 20px;
+}
+
+.more-info {
+    color: #B3B3B3;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.more-info a {
+    color: white;
+}
+
+.more-info2{
+    margin-top: 10px;
+}
+.more-info2 p {
+    font-size: 14px;
+    color: #B3B3B3;
+}
+
+.more-info2 p a {
+    color: blue;
+}
+.footer {
+    background-color: rgba(0, 0, 1, 0.80);
+    height: 300px;
+    width: 100%;
+    margin-top: 200px;
+    /* position: relative;
+    top: 200px; */
+}
+
+.footer-containt {
+    padding: 50px;
+}
+
+.footer-para {
+    color: #B3B3B3;
+    margin-bottom: 50px;
+}
+
+
+
+.footer-list ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-list ul li a {
+    color: #B3B3B3;
+}
+
+
+
+
